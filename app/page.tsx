@@ -27,7 +27,7 @@ export default function LandingPage() {
     <div className="flex min-h-screen flex-col bg-gradient-to-b from-slate-50 to-white">
       {/* WhatsApp Floating Button */}
       <a
-        href="https://wa.me/5544985699991"
+        href="https://wa.me/554498569991"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-4 right-4 z-50 bg-green-500 hover:bg-green-600 text-white p-3 sm:p-4 rounded-full shadow-2xl hover:shadow-green-500/25 transition-all duration-300 transform hover:scale-110 group"
@@ -130,7 +130,7 @@ export default function LandingPage() {
                     className="group relative bg-gradient-to-r from-red-600 via-red-500 to-yellow-500 hover:from-red-700 hover:via-red-600 hover:to-yellow-600 text-white font-black text-base sm:text-lg px-8 sm:px-10 lg:px-12 py-6 sm:py-7 lg:py-8 rounded-2xl shadow-2xl hover:shadow-red-500/30 transition-all duration-500 transform hover:scale-105 w-full sm:w-auto overflow-hidden"
                   >
                     <a
-                      href="https://wa.me/5544985699991"
+                      href="https://wa.me/554498569991"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center gap-3 relative z-10"
@@ -281,7 +281,7 @@ export default function LandingPage() {
                 className="group relative bg-gradient-to-r from-red-600 via-red-500 to-yellow-500 hover:from-red-700 hover:via-red-600 hover:to-yellow-600 text-white font-black text-base sm:text-lg px-8 sm:px-10 py-4 sm:py-5 rounded-xl shadow-xl hover:scale-105 transition-all duration-300 w-full sm:w-auto overflow-hidden"
               >
                 <a
-                  href="https://wa.me/5544985699991"
+                  href="https://wa.me/554498569991"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 relative z-10"
@@ -502,7 +502,7 @@ export default function LandingPage() {
                   className="group relative bg-gradient-to-r from-red-600 via-red-500 to-yellow-500 hover:from-red-700 hover:via-red-600 hover:to-yellow-600 text-white font-black text-base sm:text-lg px-8 sm:px-10 py-6 sm:py-7 rounded-2xl shadow-2xl hover:scale-105 transition-all duration-500 w-full sm:w-auto overflow-hidden"
                 >
                   <a
-                    href="https://wa.me/5544985699991"
+                    href="https://wa.me/554498569991"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-3 relative z-10"
@@ -756,7 +756,7 @@ export default function LandingPage() {
                     className="group w-full bg-white text-red-600 hover:bg-red-50 font-black py-6 rounded-2xl flex items-center justify-center gap-3 text-xl shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden"
                   >
                     <a
-                      href="https://wa.me/5544985699991"
+                      href="https://wa.me/554498569991"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="relative"
@@ -954,7 +954,7 @@ export default function LandingPage() {
                     className="group bg-white text-red-600 hover:bg-red-50 font-bold text-base sm:text-lg px-8 sm:px-10 py-4 sm:py-5 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden"
                   >
                     <a
-                      href="https://wa.me/5544985699991"
+                      href="https://wa.me/554498569991"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center gap-2 relative z-10"
@@ -1087,7 +1087,7 @@ export default function LandingPage() {
                     className="group w-full bg-gradient-to-r from-red-600 via-red-500 to-yellow-500 hover:from-red-700 hover:via-red-600 hover:to-yellow-600 text-white font-black text-base sm:text-lg py-4 sm:py-5 rounded-xl shadow-2xl hover:scale-105 transition-all duration-500 overflow-hidden"
                   >
                     <a
-                      href="https://wa.me/5544985699991"
+                      href="https://wa.me/554498569991"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center gap-3 relative z-10"
@@ -1109,7 +1109,7 @@ export default function LandingPage() {
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-white">
                   <div className="flex items-center gap-2">
                     <Phone className="h-5 w-5 text-yellow-400" />
-                    <span className="font-bold">44 9 8569-9991</span>
+                    <span className="font-bold">44 9 9856-9991</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Globe className="h-5 w-5 text-yellow-400" />
