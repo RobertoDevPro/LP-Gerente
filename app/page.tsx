@@ -27,7 +27,7 @@ export default function LandingPage() {
     <div className="flex min-h-screen flex-col bg-gradient-to-b from-slate-50 to-white">
       {/* WhatsApp Floating Button */}
       <a
-        href="https://wa.me/5544991255666"
+        href="https://wa.me/5544985699991"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-4 right-4 z-50 bg-green-500 hover:bg-green-600 text-white p-3 sm:p-4 rounded-full shadow-2xl hover:shadow-green-500/25 transition-all duration-300 transform hover:scale-110 group"
@@ -83,25 +83,15 @@ export default function LandingPage() {
 
                 {/* Main Headline with Logo */}
                 <div className="text-center lg:text-left">
-                  <div className="flex items-center justify-center lg:justify-start gap-4 mb-6">
-                    <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full overflow-hidden bg-white p-2">
+                  <div className="flex items-center justify-center lg:justify-start mb-6">
+                    <div className="w-64 h-32 sm:w-80 sm:h-40 lg:w-96 lg:h-48 bg-white p-3 rounded-xl shadow-2xl">
                       <Image
                         src="/logo-gerente-melhor.jpg"
                         alt="Como Ser um Gerente Melhor Logo"
-                        width={80}
-                        height={80}
+                        width={400}
+                        height={200}
                         className="w-full h-full object-contain"
                       />
-                    </div>
-                    <div>
-                      <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black tracking-tight leading-tight">
-                        COMO SER UM{" "}
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-yellow-400">
-                          GERENTE
-                        </span>
-                        <br />
-                        <span className="text-yellow-400">MELHOR</span>
-                      </h1>
                     </div>
                   </div>
                   <div className="w-16 sm:w-24 h-1 sm:h-1.5 bg-gradient-to-r from-red-500 to-yellow-500 rounded-full mx-auto lg:mx-0 mb-4 sm:mb-8"></div>
@@ -118,7 +108,7 @@ export default function LandingPage() {
                     "10 módulos de 3-4h cada",
                     "Pasta + Livro + E-Books",
                     "Certificado incluso",
-                    "Início em Agosto",
+                    "MARINGÁ, Início em Agosto",
                   ].map((benefit, index) => (
                     <div
                       key={index}
@@ -139,7 +129,12 @@ export default function LandingPage() {
                     size="lg"
                     className="group relative bg-gradient-to-r from-red-600 via-red-500 to-yellow-500 hover:from-red-700 hover:via-red-600 hover:to-yellow-600 text-white font-black text-base sm:text-lg px-8 sm:px-10 lg:px-12 py-6 sm:py-7 lg:py-8 rounded-2xl shadow-2xl hover:shadow-red-500/30 transition-all duration-500 transform hover:scale-105 w-full sm:w-auto overflow-hidden"
                   >
-                    <a href="#inscricao" className="flex items-center justify-center gap-3 relative z-10">
+                    <a
+                      href="https://wa.me/5544985699991"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-center gap-3 relative z-10"
+                    >
                       <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                       <Zap className="h-5 w-5 sm:h-6 sm:w-6 animate-pulse" />
                       <span className="relative">INSCREVA-SE JÁ!</span>
@@ -285,7 +280,12 @@ export default function LandingPage() {
                 size="lg"
                 className="group relative bg-gradient-to-r from-red-600 via-red-500 to-yellow-500 hover:from-red-700 hover:via-red-600 hover:to-yellow-600 text-white font-black text-base sm:text-lg px-8 sm:px-10 py-4 sm:py-5 rounded-xl shadow-xl hover:scale-105 transition-all duration-300 w-full sm:w-auto overflow-hidden"
               >
-                <a href="#inscricao" className="flex items-center justify-center gap-2 relative z-10">
+                <a
+                  href="https://wa.me/5544985699991"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 relative z-10"
+                >
                   <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <span className="relative">QUERO PARTICIPAR</span>
                   <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5 group-hover:translate-x-1 transition-transform duration-300 relative" />
@@ -501,7 +501,12 @@ export default function LandingPage() {
                   size="lg"
                   className="group relative bg-gradient-to-r from-red-600 via-red-500 to-yellow-500 hover:from-red-700 hover:via-red-600 hover:to-yellow-600 text-white font-black text-base sm:text-lg px-8 sm:px-10 py-6 sm:py-7 rounded-2xl shadow-2xl hover:scale-105 transition-all duration-500 w-full sm:w-auto overflow-hidden"
                 >
-                  <a href="#inscricao" className="flex items-center justify-center gap-3 relative z-10">
+                  <a
+                    href="https://wa.me/5544985699991"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center gap-3 relative z-10"
+                  >
                     <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                     <Trophy className="h-5 w-5 sm:h-6 sm:w-6 animate-bounce relative" />
                     <span className="relative">QUERO ME DESENVOLVER AGORA</span>
@@ -634,10 +639,7 @@ export default function LandingPage() {
                       />
                     </div>
                     <h3 className="text-xl sm:text-2xl font-black text-slate-900 mb-2">AMAURI CROZARIOLLI</h3>
-                    <div className="flex items-center justify-center gap-2 text-yellow-600 mb-4">
-                      <Phone className="h-4 w-4" />
-                      <span className="font-bold">44 9 9125-5666</span>
-                    </div>
+                    <div className="text-yellow-600 font-bold text-sm">CONSULTOR & INSTRUTOR</div>
                   </div>
 
                   <div className="space-y-3 text-slate-700 text-sm sm:text-base leading-relaxed">
@@ -753,7 +755,12 @@ export default function LandingPage() {
                     asChild
                     className="group w-full bg-white text-red-600 hover:bg-red-50 font-black py-6 rounded-2xl flex items-center justify-center gap-3 text-xl shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden"
                   >
-                    <a href="#inscricao" className="relative">
+                    <a
+                      href="https://wa.me/5544985699991"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="relative"
+                    >
                       <div className="absolute inset-0 bg-gradient-to-r from-red-100/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                       <Zap className="h-6 w-6 animate-pulse relative z-10" />
                       <span className="relative z-10">GARANTIR MINHA VAGA</span>
@@ -947,7 +954,7 @@ export default function LandingPage() {
                     className="group bg-white text-red-600 hover:bg-red-50 font-bold text-base sm:text-lg px-8 sm:px-10 py-4 sm:py-5 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden"
                   >
                     <a
-                      href="https://wa.me/5544991255666"
+                      href="https://wa.me/5544985699991"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center gap-2 relative z-10"
@@ -1080,7 +1087,7 @@ export default function LandingPage() {
                     className="group w-full bg-gradient-to-r from-red-600 via-red-500 to-yellow-500 hover:from-red-700 hover:via-red-600 hover:to-yellow-600 text-white font-black text-base sm:text-lg py-4 sm:py-5 rounded-xl shadow-2xl hover:scale-105 transition-all duration-500 overflow-hidden"
                   >
                     <a
-                      href="https://wa.me/5544991255666"
+                      href="https://wa.me/5544985699991"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center gap-3 relative z-10"
@@ -1102,7 +1109,7 @@ export default function LandingPage() {
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-white">
                   <div className="flex items-center gap-2">
                     <Phone className="h-5 w-5 text-yellow-400" />
-                    <span className="font-bold">44 9 9125-5666</span>
+                    <span className="font-bold">44 9 8569-9991</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Globe className="h-5 w-5 text-yellow-400" />
