@@ -27,14 +27,16 @@ export default function LandingPage() {
     <div className="flex min-h-screen flex-col bg-gradient-to-b from-slate-50 to-white">
       {/* WhatsApp Floating Button */}
       <a
-        href="https://wa.me/554498569991"
+        href="https://pay.kiwify.com.br/h89Xh6V"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-4 right-4 z-50 bg-green-500 hover:bg-green-600 text-white p-3 sm:p-4 rounded-full shadow-2xl hover:shadow-green-500/25 transition-all duration-300 transform hover:scale-110 group"
-        aria-label="Falar no WhatsApp"
+        aria-label="Ir para o Checkout"
       >
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 sm:w-8 sm:h-8">
-          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.488" />
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 sm:w-8 sm:h-8">
+          <path d="M12 2L2 7l10 5 10-5-10-5Z"/>
+          <path d="M2 17l10 5 10-5"/>
+          <path d="M2 12l10 5 10-5"/>
         </svg>
         <div className="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center animate-pulse">
           !
@@ -84,15 +86,13 @@ export default function LandingPage() {
                 {/* Main Headline with Logo */}
                 <div className="text-center lg:text-left">
                   <div className="flex items-center justify-center lg:justify-start mb-6">
-                    <div className="w-64 h-32 sm:w-80 sm:h-40 lg:w-96 lg:h-48 bg-white p-3 rounded-xl shadow-2xl">
-                      <Image
-                        src="/logo-gerente-melhor.jpg"
-                        alt="Como Ser um Gerente Melhor Logo"
-                        width={400}
-                        height={200}
-                        className="w-full h-full object-contain"
-                      />
-                    </div>
+                    <Image
+                      src="/logogerentemelhor.jpg"
+                      alt="Como Ser um Gerente Melhor Logo"
+                      width={400}
+                      height={200}
+                      className="w-64 h-32 sm:w-80 sm:h-40 lg:w-96 lg:h-48 object-contain"
+                    />
                   </div>
                   <div className="w-16 sm:w-24 h-1 sm:h-1.5 bg-gradient-to-r from-red-500 to-yellow-500 rounded-full mx-auto lg:mx-0 mb-4 sm:mb-8"></div>
                   <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-slate-200 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
@@ -130,7 +130,7 @@ export default function LandingPage() {
                     className="group relative bg-gradient-to-r from-red-600 via-red-500 to-yellow-500 hover:from-red-700 hover:via-red-600 hover:to-yellow-600 text-white font-black text-base sm:text-lg px-8 sm:px-10 lg:px-12 py-6 sm:py-7 lg:py-8 rounded-2xl shadow-2xl hover:shadow-red-500/30 transition-all duration-500 transform hover:scale-105 w-full sm:w-auto overflow-hidden"
                   >
                     <a
-                      href="https://wa.me/554498569991"
+                      href="https://pay.kiwify.com.br/h89Xh6V"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center gap-3 relative z-10"
@@ -169,22 +169,26 @@ export default function LandingPage() {
               <div className="flex justify-center lg:justify-end mt-8 lg:mt-0">
                 <div className="w-full max-w-sm lg:max-w-md">
                   <Card className="bg-white/10 backdrop-blur-sm border border-white/20 p-4 sm:p-6 lg:p-8 rounded-2xl shadow-2xl">
-                    {/* Program Info Image */}
-                    <div className="mb-6">
-                      <Image
-                        src="/program-info.jpg"
-                        alt="Informações do Programa"
-                        width={400}
-                        height={300}
-                        className="w-full h-auto rounded-xl"
-                      />
-                    </div>
-
+                    
                     {/* Pricing */}
                     <div className="bg-gradient-to-r from-red-600 to-yellow-600 rounded-xl p-4 sm:p-6 text-white text-center">
-                      <div className="text-xs sm:text-sm text-white/80 mb-1">Investimento</div>
-                      <div className="text-2xl sm:text-3xl font-black text-white mb-1">10x R$ 197,00</div>
-                      <div className="text-xs sm:text-sm text-white/90 font-semibold">*Nos cartões</div>
+                      <div className="text-xs sm:text-sm text-white/80 mb-2">Investimento</div>
+                      
+                      {/* 1º Lote */}
+                      <div className="mb-3 p-2 bg-green-500/20 rounded-lg">
+                        <div className="text-xs text-green-300 font-bold mb-1">1º LOTE</div>
+                        <div className="text-xl sm:text-2xl font-black text-white mb-1">10x R$ 97,00</div>
+                        <div className="text-xs text-green-300">até 15/8</div>
+                      </div>
+                      
+                      {/* 2º Lote */}
+                      <div className="p-2 bg-yellow-500/20 rounded-lg">
+                        <div className="text-xs text-yellow-300 font-bold mb-1">2º LOTE</div>
+                        <div className="text-xl sm:text-2xl font-black text-white mb-1">10x R$ 197,00</div>
+                        <div className="text-xs text-yellow-300">após 15/8</div>
+                      </div>
+                      
+                      <div className="text-xs sm:text-sm text-white/90 font-semibold mt-2">*Nos cartões</div>
                     </div>
                   </Card>
                 </div>
@@ -281,7 +285,7 @@ export default function LandingPage() {
                 className="group relative bg-gradient-to-r from-red-600 via-red-500 to-yellow-500 hover:from-red-700 hover:via-red-600 hover:to-yellow-600 text-white font-black text-base sm:text-lg px-8 sm:px-10 py-4 sm:py-5 rounded-xl shadow-xl hover:scale-105 transition-all duration-300 w-full sm:w-auto overflow-hidden"
               >
                 <a
-                  href="https://wa.me/554498569991"
+                  href="https://pay.kiwify.com.br/h89Xh6V"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 relative z-10"
@@ -502,7 +506,7 @@ export default function LandingPage() {
                   className="group relative bg-gradient-to-r from-red-600 via-red-500 to-yellow-500 hover:from-red-700 hover:via-red-600 hover:to-yellow-600 text-white font-black text-base sm:text-lg px-8 sm:px-10 py-6 sm:py-7 rounded-2xl shadow-2xl hover:scale-105 transition-all duration-500 w-full sm:w-auto overflow-hidden"
                 >
                   <a
-                    href="https://wa.me/554498569991"
+                    href="https://pay.kiwify.com.br/h89Xh6V"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-3 relative z-10"
@@ -749,14 +753,28 @@ export default function LandingPage() {
                     INÍCIO EM AGOSTO
                   </div>
                   <div className="text-6xl sm:text-7xl lg:text-8xl font-black text-white mb-4">10x</div>
-                  <div className="text-4xl sm:text-5xl lg:text-6xl font-black text-white mb-2">R$ 197,00</div>
+                  
+                  {/* 1º Lote */}
+                  <div className="mb-4 p-3 bg-green-500/20 rounded-xl">
+                    <div className="text-sm text-green-300 font-bold mb-2">1º LOTE</div>
+                    <div className="text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-1">R$ 97,00</div>
+                    <div className="text-sm text-green-300">até 15/8</div>
+                  </div>
+                  
+                  {/* 2º Lote */}
+                  <div className="mb-4 p-3 bg-yellow-500/20 rounded-xl">
+                    <div className="text-sm text-yellow-300 font-bold mb-2">2º LOTE</div>
+                    <div className="text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-1">R$ 197,00</div>
+                    <div className="text-sm text-yellow-300">após 15/8</div>
+                  </div>
+                  
                   <p className="text-red-100 font-bold mb-8 text-lg">*Nos cartões</p>
                   <Button
                     asChild
                     className="group w-full bg-white text-red-600 hover:bg-red-50 font-black py-6 rounded-2xl flex items-center justify-center gap-3 text-xl shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden"
                   >
                     <a
-                      href="https://wa.me/554498569991"
+                      href="https://pay.kiwify.com.br/h89Xh6V"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="relative"
@@ -910,7 +928,7 @@ export default function LandingPage() {
                     icon: "💰",
                     question: "Como funciona o pagamento?",
                     answer:
-                      "O investimento é de 10x de R$ 197,00 nos cartões. Oferecemos facilidades de pagamento para sua comodidade.",
+                      "O investimento varia conforme o lote: 1º lote até 15/8 com 10x de R$ 97,00, 2º lote após 15/8 com 10x de R$ 197,00 nos cartões. Oferecemos facilidades de pagamento para sua comodidade.",
                   },
                   {
                     icon: "📍",
@@ -1063,8 +1081,22 @@ export default function LandingPage() {
                 <div className="bg-white rounded-2xl p-4 sm:p-6 lg:p-8 text-slate-900">
                   <div className="text-center mb-4 sm:mb-6">
                     <div className="text-xs sm:text-sm text-slate-600 mb-2">Investimento</div>
-                    <div className="text-3xl sm:text-4xl lg:text-5xl font-black text-red-600 mb-2">10x R$ 197,00</div>
-                    <div className="text-xs sm:text-sm text-slate-600">*Nos cartões</div>
+                    
+                    {/* 1º Lote */}
+                    <div className="mb-3 p-2 bg-green-100 rounded-lg">
+                      <div className="text-xs text-green-700 font-bold mb-1">1º LOTE</div>
+                      <div className="text-2xl sm:text-3xl font-black text-red-600 mb-1">10x R$ 97,00</div>
+                      <div className="text-xs text-green-700">até 15/8</div>
+                    </div>
+                    
+                    {/* 2º Lote */}
+                    <div className="p-2 bg-yellow-100 rounded-lg">
+                      <div className="text-xs text-yellow-700 font-bold mb-1">2º LOTE</div>
+                      <div className="text-2xl sm:text-3xl font-black text-red-600 mb-1">10x R$ 197,00</div>
+                      <div className="text-xs text-yellow-700">após 15/8</div>
+                    </div>
+                    
+                    <div className="text-xs sm:text-sm text-slate-600 mt-2">*Nos cartões</div>
                   </div>
 
                   <div className="space-y-2 sm:space-y-3 mb-4 sm:mb-6 text-xs sm:text-sm bg-slate-50 p-3 sm:p-4 rounded-lg">
@@ -1087,7 +1119,7 @@ export default function LandingPage() {
                     className="group w-full bg-gradient-to-r from-red-600 via-red-500 to-yellow-500 hover:from-red-700 hover:via-red-600 hover:to-yellow-600 text-white font-black text-base sm:text-lg py-4 sm:py-5 rounded-xl shadow-2xl hover:scale-105 transition-all duration-500 overflow-hidden"
                   >
                     <a
-                      href="https://wa.me/554498569991"
+                      href="https://pay.kiwify.com.br/h89Xh6V"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center gap-3 relative z-10"
